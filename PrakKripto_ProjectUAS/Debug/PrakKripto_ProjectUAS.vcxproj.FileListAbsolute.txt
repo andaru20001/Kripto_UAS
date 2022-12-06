@@ -1,0 +1,3 @@
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Debug\PrakKripto_ProjectUAS.vcxproj.AssemblyReference.cache
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Debug\PrakKripto_ProjectUAS.Form1.resources
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Debug\PrakKripto_ProjectUAS.vcxproj.GenerateResource.cache

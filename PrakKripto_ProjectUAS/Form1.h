@@ -3,14 +3,6 @@
 #include <msclr\marshal_cppstd.h>
 
 namespace CppCLRWinformsProjekt {
-
-	using namespace System;
-	using namespace System::ComponentModel;
-	using namespace System::Collections;
-	using namespace System::Windows::Forms;
-	using namespace System::Data;
-	using namespace System::Drawing;
-
 	/// <summary>
 	/// Zusammenfassung fÅE Form1
 	/// </summary>
@@ -140,28 +132,28 @@ namespace CppCLRWinformsProjekt {
 	private: System::Windows::Forms::TextBox^ textBox4;
 	private: System::Windows::Forms::Label^ label5;
 	private: System::Windows::Forms::Label^ label6;
-private: System::Windows::Forms::TabPage^ tabPage3;
-private: System::Windows::Forms::TextBox^ textBox10;
-private: System::Windows::Forms::TextBox^ textBox9;
-private: System::Windows::Forms::Label^ label2;
-private: System::Windows::Forms::Button^ button3;
-private: System::Windows::Forms::Panel^ panel3;
-private: System::Windows::Forms::TextBox^ textBox5;
-private: System::Windows::Forms::TextBox^ textBox6;
-private: System::Windows::Forms::Label^ label8;
-private: System::Windows::Forms::Label^ label9;
-private: System::Windows::Forms::Label^ label10;
-private: System::Windows::Forms::TabPage^ tabPage4;
-private: System::Windows::Forms::TextBox^ textBox11;
-private: System::Windows::Forms::TextBox^ textBox12;
-private: System::Windows::Forms::Label^ label7;
-private: System::Windows::Forms::Label^ label13;
-private: System::Windows::Forms::Button^ button4;
-private: System::Windows::Forms::Panel^ panel4;
-private: System::Windows::Forms::TextBox^ textBox7;
-private: System::Windows::Forms::TextBox^ textBox8;
-private: System::Windows::Forms::Label^ label11;
-private: System::Windows::Forms::Label^ label12;
+	private: System::Windows::Forms::TabPage^ tabPage3;
+	private: System::Windows::Forms::TextBox^ textBox10;
+	private: System::Windows::Forms::TextBox^ textBox9;
+	private: System::Windows::Forms::Label^ label2;
+	private: System::Windows::Forms::Button^ button3;
+	private: System::Windows::Forms::Panel^ panel3;
+	private: System::Windows::Forms::TextBox^ textBox5;
+	private: System::Windows::Forms::TextBox^ textBox6;
+	private: System::Windows::Forms::Label^ label8;
+	private: System::Windows::Forms::Label^ label9;
+	private: System::Windows::Forms::Label^ label10;
+	private: System::Windows::Forms::TabPage^ tabPage4;
+	private: System::Windows::Forms::TextBox^ textBox11;
+	private: System::Windows::Forms::TextBox^ textBox12;
+	private: System::Windows::Forms::Label^ label7;
+	private: System::Windows::Forms::Label^ label13;
+	private: System::Windows::Forms::Button^ button4;
+	private: System::Windows::Forms::Panel^ panel4;
+	private: System::Windows::Forms::TextBox^ textBox7;
+	private: System::Windows::Forms::TextBox^ textBox8;
+	private: System::Windows::Forms::Label^ label11;
+	private: System::Windows::Forms::Label^ label12;
 
 
 	protected:
@@ -237,7 +229,7 @@ private: System::Windows::Forms::Label^ label12;
 			this->label1->Name = L"label1";
 			this->label1->Size = System::Drawing::Size(236, 19);
 			this->label1->TabIndex = 0;
-			this->label1->Text = L"Program Affine + ROT13 Cipher";
+			this->label1->Text = L"Program ROT13 + Affine Cipher";
 			// 
 			// tabControl1
 			// 
@@ -288,6 +280,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox2
 			// 
+			this->textBox2->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox2->Location = System::Drawing::Point(89, 48);
 			this->textBox2->Name = L"textBox2";
 			this->textBox2->ReadOnly = true;
@@ -296,6 +290,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox1
 			// 
+			this->textBox1->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox1->Location = System::Drawing::Point(89, 16);
 			this->textBox1->Name = L"textBox1";
 			this->textBox1->Size = System::Drawing::Size(187, 21);
@@ -354,6 +350,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox3
 			// 
+			this->textBox3->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox3->Location = System::Drawing::Point(89, 48);
 			this->textBox3->Name = L"textBox3";
 			this->textBox3->ReadOnly = true;
@@ -362,6 +360,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox4
 			// 
+			this->textBox4->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox4->Location = System::Drawing::Point(89, 16);
 			this->textBox4->Name = L"textBox4";
 			this->textBox4->Size = System::Drawing::Size(187, 21);
@@ -403,6 +403,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox10
 			// 
+			this->textBox10->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox10->Location = System::Drawing::Point(136, 18);
 			this->textBox10->Name = L"textBox10";
 			this->textBox10->Size = System::Drawing::Size(46, 21);
@@ -410,6 +412,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox9
 			// 
+			this->textBox9->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox9->Location = System::Drawing::Point(50, 18);
 			this->textBox9->Name = L"textBox9";
 			this->textBox9->Size = System::Drawing::Size(46, 21);
@@ -447,6 +451,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox5
 			// 
+			this->textBox5->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox5->Location = System::Drawing::Point(89, 48);
 			this->textBox5->Name = L"textBox5";
 			this->textBox5->ReadOnly = true;
@@ -455,6 +461,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox6
 			// 
+			this->textBox6->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox6->Location = System::Drawing::Point(89, 16);
 			this->textBox6->Name = L"textBox6";
 			this->textBox6->Size = System::Drawing::Size(187, 21);
@@ -505,6 +513,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox11
 			// 
+			this->textBox11->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox11->Location = System::Drawing::Point(136, 18);
 			this->textBox11->Name = L"textBox11";
 			this->textBox11->Size = System::Drawing::Size(46, 21);
@@ -512,6 +522,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox12
 			// 
+			this->textBox12->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox12->Location = System::Drawing::Point(50, 18);
 			this->textBox12->Name = L"textBox12";
 			this->textBox12->Size = System::Drawing::Size(46, 21);
@@ -558,6 +570,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox7
 			// 
+			this->textBox7->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox7->Location = System::Drawing::Point(89, 48);
 			this->textBox7->Name = L"textBox7";
 			this->textBox7->ReadOnly = true;
@@ -566,6 +580,8 @@ private: System::Windows::Forms::Label^ label12;
 			// 
 			// textBox8
 			// 
+			this->textBox8->Font = (gcnew System::Drawing::Font(L"Exo 2", 8.25F, System::Drawing::FontStyle::Regular, System::Drawing::GraphicsUnit::Point,
+				static_cast<System::Byte>(0)));
 			this->textBox8->Location = System::Drawing::Point(89, 16);
 			this->textBox8->Name = L"textBox8";
 			this->textBox8->Size = System::Drawing::Size(187, 21);
@@ -597,7 +613,7 @@ private: System::Windows::Forms::Label^ label12;
 			this->Controls->Add(this->tabControl1);
 			this->Controls->Add(this->label1);
 			this->Name = L"Form1";
-			this->Text = L"Form1";
+			this->Text = L"Program ROT13 + Affine Cipher";
 			this->tabControl1->ResumeLayout(false);
 			this->tabPage1->ResumeLayout(false);
 			this->panel1->ResumeLayout(false);
@@ -623,31 +639,31 @@ private: System::Windows::Forms::Label^ label12;
 		msclr::interop::marshal_context context;
 		std::string pt = context.marshal_as<std::string>(textBox1->Text);
 		std::string ct = rot13E(pt);
-		textBox2->Text = context.marshal_as<String^>(ct);
+		textBox2->Text = context.marshal_as<System::String^>(ct);
 	}
 
 	private: System::Void button2_Click(System::Object^ sender, System::EventArgs^ e) {
 		msclr::interop::marshal_context context;
 		std::string ct = context.marshal_as<std::string>(textBox4->Text);
 		std::string pt = rot13D(ct);
-		textBox3->Text = context.marshal_as<String^>(pt);
+		textBox3->Text = context.marshal_as<System::String^>(pt);
 	}
 
 	private: System::Void button3_Click(System::Object^ sender, System::EventArgs^ e) {
 		msclr::interop::marshal_context context;
 		std::string pt = context.marshal_as<std::string>(textBox6->Text);
-		int a = Convert::ToInt32(textBox9->Text);
-		int b = Convert::ToInt32(textBox10->Text);
+		int a = System::Convert::ToInt32(textBox9->Text);
+		int b = System::Convert::ToInt32(textBox10->Text);
 		std::string ct = affineE(pt,a,b);
-		textBox5->Text = context.marshal_as<String^>(ct);
+		textBox5->Text = context.marshal_as<System::String^>(ct);
 	}
 	private: System::Void button4_Click(System::Object^ sender, System::EventArgs^ e) {
 		msclr::interop::marshal_context context;
 		std::string ct = context.marshal_as<std::string>(textBox8->Text);
-		int a = Convert::ToInt32(textBox12->Text);
-		int b = Convert::ToInt32(textBox11->Text);
-		std::string pt = affineE(ct, a, b);
-		textBox7->Text = context.marshal_as<String^>(pt);
+		int a = System::Convert::ToInt32(textBox12->Text);
+		int b = System::Convert::ToInt32(textBox11->Text);
+		std::string pt = affineD(ct, a, b);
+		textBox7->Text = context.marshal_as<System::String^>(pt);
 	}
 };
 }
