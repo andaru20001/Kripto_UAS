@@ -1,0 +1,27 @@
+﻿  pch.cpp
+  AssemblyInfo.cpp
+  CppCLR_WinformsProjekt.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(91,81): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(91,81): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(98,9): error C2371: 'IServiceProvider': redefinition; different basic types
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(44): message : see declaration of 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(115,47): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(115,47): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(239,28): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(239,28): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(249,38): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\servprov.h(249,38): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6870,70): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6870,70): message : compiler replacing '*' with '^' to continue parsing
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6872,66): error C3699: '*': cannot use this indirection on type 'IServiceProvider'
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.19041.0\um\urlmon.h(6872,66): message : compiler replacing '*' with '^' to continue parsing
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(30,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(48,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(66,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(93,22): warning C4018: '<': signed/unsigned mismatch
+  Form1.cpp
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(30,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(48,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(66,22): warning C4018: '<': signed/unsigned mismatch
+C:\Users\Andaru\source\repos\PrakKripto_ProjectUAS\PrakKripto_ProjectUAS\Form1.h(93,22): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
